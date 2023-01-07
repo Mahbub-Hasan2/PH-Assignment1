@@ -1,0 +1,244 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* fonts links start */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* fonts links end */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+
+
+/* =================================================== */
+/* header section style start  */
+#header_section {
+    background-image: url("../images/banner/banner3.png");
+    height: 808px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header_section .container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#header_contents {
+    text-align: right;
+}
+
+#header_contents h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+#header_contents p {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 0px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+#header_contents button {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #005FAC;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px 0px;
+
+}
+
+/* header section style end  */
+/* =================================================== */
+
+
+
+
+/* =================================================== */
+/* my failures section start */
+#failures_section {
+    padding: 80px 0px;
+}
+
+#failures_contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+#failures_contents div {
+    width: 50%;
+}
+
+#failures_contents img {
+    width: 100%;
+    height: 100%;
+}
+
+#failures_contents .text_content h2 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+#failures_contents .text_content p {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 0px;
+    text-align: left;
+    max-width: 75%;
+    color: gray;
+}
+
+#failures_contents .text_content li {
+    margin: 0;
+    padding: 4px 30px;
+    list-style: none;
+    background-image: url("../images/icons/mark.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px;
+    font-size: 16px;
+    color: gray;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* my failures section end */
+/* =================================================== */
+
+
+
+/* =================================================== */
+/* my plans section start */
+
+#my_section {
+    padding: 80px 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#my_section #title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.plan_card {
+    text-align: center;
+    width: 300px;
+}
+
+.plan_card img {
+    width: 92px;
+    margin-bottom: 10px;
+}
+
+.plan_card h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.plan_card p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+    padding: 5px 0px;
+}
+
+/* my plans section end */
+/* =================================================== */
+
+
+
+/* =================================================== */
+/* mindset section start */
+#mindset {
+    padding: 80px 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.mindset_bg {
+    width: 1140px;
+    height: 300px;
+    background-image: url("../images/watch.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.mindset_content {
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    padding: 59px 0px 59px 64px;
+}
+
+.mindset_content h3 {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+
+}
+
+.mindset_content button {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 26px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #005FAC;
+    cursor: pointer;
+}
+
+/* mindset section end */
+/* =========================================== */

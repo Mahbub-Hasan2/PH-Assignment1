@@ -242,3 +242,33 @@
 
 /* mindset section end */
 /* =========================================== */
+
+/*  footer content start  */
+#footer {
+    font-family: 'Work Sans', sans-serif;
+    padding: 80px 0px;
+    background: #151414;
+    color: #FFFFFF;
+
+}
+
+#footer {
+    padding: 80px 0px;
+}
+
+.footer_content_left h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.footer_content_left p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/*  footer content end  */
